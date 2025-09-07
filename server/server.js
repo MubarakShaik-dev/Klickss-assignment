@@ -13,14 +13,17 @@ connectDB();
 
 const app = express();
 
+// --- NEW ADDITION 1: Trust Render's proxy ---
+app.set('trust proxy', 1);
+// --- END ADDITION ---
+
 // Body Parser Middleware
 app.use(express.json());
 
 // CORS Middleware
-// IMPORTANT: For production, you should restrict the origin
 app.use(cors({
-  origin: process.env.CLIENT_URL, // Use an environment variable for the client's URL
-  credentials: true, // Allow cookies to be sent
+  origin: process.env.CLIENT_URL,
+  credentials: true,
 }));
 
 // Session Middleware
@@ -29,8 +32,11 @@ app.use(session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    secure: process.env.NODE_ENV === 'production', // Use secure cookies in production
+    secure: true, // Use secure cookies in production
     httpOnly: true, // Prevent client-side JS from accessing the cookie
+    // --- NEW ADDITION 2: Set SameSite for cross-domain cookies ---
+    sameSite: 'none',
+    // --- END ADDITION ---
     maxAge: 1000 * 60 * 60 * 24, // 1 day
   },
 }));
