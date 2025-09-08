@@ -54,9 +54,9 @@ Klickks - Full-Stack Authentication System
 This project is a complete user authentication and session management system built with the MERN stack (MongoDB, Express, React, Node.js). It serves as a foundation for a photography platform called "Klickks," featuring a modern user interface, secure backend practices, and a seamless deployment setup.
 
 Live Demo
-Frontend (Vercel): https://your-frontend-url.vercel.app
+Frontend (Vercel): [https://your-frontend-url.vercel.app](https://klickss-assignment.vercel.app)
 
-Backend API (Render): https://your-backend-api.onrender.com
+Backend API (Render): [https://your-backend-api.onrender.com](https://klickss-assignment.onrender.com)
 
 Features
 🔐 Secure User Authentication: Full registration and login flow. Passwords are securely hashed using bcrypt.js.
