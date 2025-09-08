@@ -1,7 +1,6 @@
 Klickks - Full-Stack Authentication System
 This project is a complete user authentication and session management system built with the MERN stack (MongoDB, Express, React, Node.js). It serves as a foundation for a photography platform called "Klickks," featuring a modern user interface, secure backend practices, and a seamless deployment setup.
 
-Of course. Here is a more detailed "Features" section that you can add to your README.md. It's broken down into categories to be more descriptive for your assignment.
 
 Project Features
 Core Functionality
@@ -49,7 +48,7 @@ User Roles 🎭: Introduce different types of users, such as 'Customer' and 'Pho
 
 Two-Factor Authentication (2FA) 📱: Add an extra layer of security by requiring users to enter a code from an authenticator app after providing their password.
 
-Of course. Here is a complete and professional README.md file tailored for your assignment submission. You just need to fill in your repository URL and the live demo links after you deploy it.
+
 
 Klickks - Full-Stack Authentication System
 This project is a complete user authentication and session management system built with the MERN stack (MongoDB, Express, React, Node.js). It serves as a foundation for a photography platform called "Klickks," featuring a modern user interface, secure backend practices, and a seamless deployment setup.
@@ -72,19 +71,8 @@ Features
 
 ✉️ Validation: Server-side validation to prevent duplicate email registrations.
 
-Screenshots
-<table>
-<tr>
-<td align="center"><strong>Login Page</strong></td>
-<td align="center"><strong>Register Page</strong></td>
-<td align="center"><strong>Dashboard</strong></td>
-</tr>
-<tr>
-<td><img src="https://i.imgur.com/G5g2mJc.jpeg" alt="Login Page" width="100%"></td>
-<td><img src="https://i.imgur.com/Jd1tXyS.png" alt="Register Page" width="100%"></td>
-<td><img src="https://i.imgur.com/Hq6R33E.jpeg" alt="Dashboard" width="100%"></td>
-</tr>
-</table>
+
+
 
 Tech Stack
 Category	Technology
